@@ -204,7 +204,7 @@ def start_message(message: telebot.types.Message) -> None:
         None. It sends a link to the help instructions.
     """
     bot.send_message(
-        message.chat.id, "Ознакомьтесь с инструкцией: "
+        message.chat.id, "Ознакомьтесь с инструкцией: https://clck.ru/3FJ9NC"
     )
 
 
