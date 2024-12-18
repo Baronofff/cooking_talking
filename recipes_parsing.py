@@ -123,4 +123,7 @@ def get_data(url):
         writer = csv.writer(file)
         writer.writerows(recipe_data_dict)
 
-get_data('https://art-lunch.ru/all-recipes/')
+
+# get_data('https://art-lunch.ru/all-recipes/')
+#Строку нужно раскомментировать при первом использовании. В дальнейшем данные уже будут существовать у вас в файле.
+
